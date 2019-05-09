@@ -24,7 +24,7 @@ public void test1() throws MalformedURLException {
 	//WebDriver driver= new RemoteWebDriver(url, options);
 	WebDriver driver= new ChromeDriver();
 	// launch the browser
-	driver.get("https://jio.com");
+	driver.get("https://flipkart.com");
 	System.out.println("Title is:"+driver.getTitle());
 	driver.quit();
 }
