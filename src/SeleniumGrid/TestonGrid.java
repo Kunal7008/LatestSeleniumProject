@@ -23,6 +23,7 @@ public void test1() throws MalformedURLException {
 	System.setProperty("webdriver.chrome.driver", "C:\\Users\\KUNAL BHATTA\\Downloads\\chromedriver.exe");
 	//WebDriver driver= new RemoteWebDriver(url, options);
 	WebDriver driver= new ChromeDriver();
+	// launch the browser
 	driver.get("https://jio.com");
 	System.out.println("Title is:"+driver.getTitle());
 	driver.quit();
